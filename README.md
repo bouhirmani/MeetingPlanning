@@ -6,9 +6,9 @@ This project was generated with Spring Initializr https://start.spring.io with S
 
 Run `mvn clean install`.
 
-## Database configuration
+## Database
 
-H2 DataBase will be created in C:/MeetingPlannerData/plannerdb
+H2 DataBase will be created automatically in C:/MeetingPlannerData/plannerdb
 
 ## Running a local server. 
 
