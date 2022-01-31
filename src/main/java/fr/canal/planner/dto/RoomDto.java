@@ -1,6 +1,7 @@
 package fr.canal.planner.dto;
 
 import java.time.LocalDateTime;
+import java.util.ArrayList;
 import java.util.List;
 
 public class RoomDto {
@@ -13,6 +14,15 @@ public class RoomDto {
 	public RoomDto() {
 		// TODO Auto-generated constructor stub
 	}
+	
+	public RoomDto(String name, int capacity, LocalDateTime lastReservation) {
+		super();
+		this.name = name;
+		this.capacity = capacity;
+		this.lastReservation = lastReservation;
+		this.equipments = new ArrayList<EquipmentDto>();
+	}
+
 	public String getName() {
 		return name;
 	}
